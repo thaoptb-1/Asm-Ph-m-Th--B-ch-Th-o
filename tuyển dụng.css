@@ -1,0 +1,388 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+#page{
+    width: 1100px;
+    margin: 0 auto;
+}
+header{
+    position: absolute;
+    z-index: 1;
+    right: 140px;
+top: 10px;
+color: black;
+}
+    
+aside{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+}
+   .top-right{
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 130px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    
+    
+}
+.top-right a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+}
+
+    
+
+nav{
+    line-height: 18px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+article{
+    position: absolute;
+    min-height: 180px;
+    width: 100%;
+    float: left;
+    
+    
+}
+.hinh{
+    position: absolute;
+    z-index: 1;
+    top: 750px;
+}
+.name{
+    position: absolute;
+    z-index: 1;
+    top: 950px;
+    left: 28px;
+    font-weight: bolder;
+}
+.hinh1{
+    position: absolute;
+    z-index: 1;
+    top: 800px;
+    left:310px ;
+}
+.name1{
+    position: relative;
+    z-index: 1;
+    top:825px;
+    left: 320px;
+    font-weight: bolder;
+}
+.hinh2{
+
+    position: absolute;
+    z-index: 1;
+    top: 785px;
+    left:650px ;
+
+}
+.name2{
+    position: relative;
+    z-index: 1;
+    top: 805px;
+    left:700px ;
+    font-weight: bolder;
+
+
+
+}
+.hinh3{
+    position: absolute;
+    z-index: 1;
+    top: 740px;
+    left:930px ;
+
+
+}
+.name3{
+    position: relative;
+    z-index: 1;
+    top: 795px;
+    left:990px;
+font-weight: bolder;
+
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    left: 450px;
+    
+}
+
+
+h1{
+    position:relative;
+    z-index: 2;
+    top: 890px;
+    left: 1px;
+    font-size: 18px;
+    text-align: center;
+    outline-style: ridge;
+    color:black;
+    
+
+}
+    h3{
+        position: relative;
+        z-index: 1;
+        top: 785px;
+        left: 10px;
+        color: black;
+        
+        font-size: 18px;
+    
+     
+    }
+    .bch{
+        position: relative;
+        top: 950px;
+        left: 50px;
+
+    }
+    h4{
+        top: 790px;
+        position: relative;
+        z-index: 1;
+    }
+    h5{
+        position: relative;
+        z-index: 1;
+        top: 800px;
+    }
+    .web1{
+        top: 850px;
+        position: relative;
+        left: 270px;
+    }
+
+    
+
+
+
+.image img{
+    position: absolute;
+    
+    left: 1000px;
+    top: 500px;
+    
+    z-index: 1;
+    
+    
+}
+.image2 img{
+    position: absolute;
+    display: block;
+    
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+h2{
+    position: relative;
+    z-index: 1;
+    color:black;
+    top: 690px;
+    font-size: 35px;
+    background-color: gray;
+    font-style: italic;
+    font-weight: bold;
+    font-family: inherit;
+    text-align: center;
+    
+    
+}
+
+
+
+
+.Menu{
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 100px;
+
+}
+.menu>ul>li{
+    display: inline-block;
+    
+}
+    
+
+
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      border-radius: 3px;
+      background-color: black;
+      text-align: center;
+    
+      
+} 
+ .menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+} 
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+width:200px;
+ background-color:white;
+ box-shadow:0 0 1px gray;
+
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+ color:gray;
+text-decoration:none;
+ font-variant:small-caps;
+font-size:larger;
+ padding:0 10px;
+ background-color: black;
+
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+} 
+.menu ul ul a:hover{
+    background-color:black;
+    color: white;
+} 
+
+    .vmenu{
+        position: relative;
+        z-index: 1;
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+        border-radius: 8px;
+        box-shadow: 0 0 5px gray;
+        float: right;
+        top: 650px;
+    }
+    .vmenu a{
+        background: url('nhóm.jpg') no-repeat  0px center;
+        display: block;
+        border-bottom:0px dotted orange ;
+        color: orange;
+        font-variant: small-caps;
+        font-size:large;
+        text-decoration: none;
+        padding: 8px 10px 8px 5px ;
+        text-align: center;
+        border: 1px dotted orangered;
+    }
+    
+    .vmenu a:hover{
+     background: url('hình tròn.png') no-repeat  0px center;
+     border-bottom: 0px  dotted white;
+     background-color: orangered;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+    } 
+    .col-25{
+        width: 25%;
+        float: left;
+    }
+    .prod{
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+        margin: 5px;
+        padding:  5px;
+        text-align: center;
+        position: relative;
+        top: 750px;
+        
+    }
+    .prod>.name{
+        font-variant: small-caps;
+        color:black;
+        top: 179px;
+    font-size: 13px;
+    }
+     .prod>.image{
+        max-width: 98%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .prod>.price{
+        position: absolute;
+        left: 225px;
+        bottom: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 13px;
+        color: peru;
+    }
+    .prod>.icons{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: 20px;
+    }
+    .prod>.new-icon{
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        width:25px;
+    }
+    .footer{
+        position: relative;
+        z-index: 2;
+        clear: both;
+        background-color: black;
+        font-size: 15px;
+        top: 990px;
+    }
+    .footers{
+        position: relative;
+        z-index: 3;
+        clear: both;
+        
+        font: size 15px;
+        top: 20px;
+    }
+    p{
+        position: relative;
+        z-index: 3;
+        font-size: 15px;
+        left: 350px;
+        color: white;
+        bottom: 80px;
+    }
