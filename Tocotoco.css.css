@@ -456,7 +456,8 @@ left: 150px;
         clear: both;
         background-color: black;
         font-size: 15px;
-        top: 130px;
+        top: 10px;
+
     }
     .footers{
         position: relative;
@@ -559,6 +560,7 @@ left: 150px;
     .photo{
         position: relative;
         top: 120px;
+        left: 50px;
     }
     .noidung1{
         position: relative;
@@ -628,3 +630,10 @@ left: 150px;
      font-weight: bold;
      text-align: center;
     } 
+    .photo1{
+        position: relative;
+        z-index: 1;
+        left: 670px;
+    bottom: 190px;
+    }
+    
